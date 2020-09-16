@@ -1,14 +1,7 @@
-def draw_lake(a=10):
+def draw_lake(a=10, b=5):
     area = "~." * a
-    print(" / |                    ")
-    print(" /..'|                                 ")
-    print(" /'.'|                                ")
-    print("/.''.'|        ("+area+")       ")
-    print(" /.'.'.|       ("+area+")      ")
-    print(" /'.''.'.|   ("+area+")        ")
-    print("  [ ]         ("+area+")          ")
-    print("__[ ]_________("+area+")___________")
-    print("")
-    print("")
+
+    for i in range(b):
+        print("("+area+")")
 
     return
