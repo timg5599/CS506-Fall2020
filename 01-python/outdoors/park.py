@@ -12,4 +12,3 @@ def draw_park():
     return
 
 
-draw_park
